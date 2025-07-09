@@ -1,0 +1,5 @@
+C:/Users/Alex/Documents/Unity/Uebung_02/.utmp/RelWithDebInfo/2e6w4h3g/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Documents/Unity/Uebung_02/.utmp/RelWithDebInfo/2e6w4h3g/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex/Documents/Unity/Uebung_02/.utmp/RelWithDebInfo/2e6w4h3g/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/Alex/Documents/Unity/Uebung_02/.utmp/RelWithDebInfo/2e6w4h3g/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Documents/Unity/Uebung_02/.utmp/RelWithDebInfo/2e6w4h3g/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
