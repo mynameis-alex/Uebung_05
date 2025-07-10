@@ -6,8 +6,6 @@ Die APK-Datei finden Sie im `Build`-Ordner.
 
 ## TO DO
 
-- mehr Bäume platzieren
-- Schrittgeschwindigkeit reduzieren
 - Pfade bauen (mithilfe anderer Texturen)
 - Soundquellen streuen, passend zur Station, wo man ist
 - Interaktionselement (Karte öffnen, Vogel füttern/rufen/...)
