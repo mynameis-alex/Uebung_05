@@ -6,10 +6,9 @@ Die APK-Datei finden Sie im `Build`-Ordner.
 
 ## TO DO
 
-- Bäume platzieren + Collider hinzufügen!
+- mehr Bäume platzieren
+- Schrittgeschwindigkeit reduzieren
 - Pfade bauen (mithilfe anderer Texturen)
-- (natürlich wirkende) Barriere am Ende der Plane
-- Schrittgeräusche, nur wenn man auch wirklich geht
 - Soundquellen streuen, passend zur Station, wo man ist
 - Interaktionselement (Karte öffnen, Vogel füttern/rufen/...)
 - Bildungselemente zu Bäumen/Tieren/...
