@@ -6,9 +6,12 @@ Die APK-Datei finden Sie im `Build`-Ordner.
 
 ## TO DO
 
-- Ray für Teleportation blocken + Springen blocken
-- Pfade bauen (mithilfe anderer Texturen)
-- Soundquellen streuen, passend zur Station, wo man ist
+
+- Water-Schrittsound, wenn Spieler durch Fluss läuft (evtl trackbar über Höhe des spielers oder Kollision?)
+- Wasser-Sound generell in der Nähe des Flusses/Teiches
+- Wasserfall bei Teich
+- Vogel fliegt umher
+
 - Interaktionselement (Karte öffnen, Vogel füttern/rufen/...)
 - Bildungselemente zu Bäumen/Tieren/...
 
