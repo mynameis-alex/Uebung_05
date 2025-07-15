@@ -6,11 +6,14 @@ public class PlayerController : MonoBehaviour
 
     //Assets (Audios)
     public AudioSource audioWalking;
+    public AudioSource audioWalkingInWater;
 
     //Position and isMoving
     private Vector3 position;
     private float posTreshold = 0.01f;
     private Boolean isMoving = false;
+    private Boolean isWater = false;
+
     private float moveInterval = 0.2f;
     private float timer;
 
@@ -30,6 +33,7 @@ public class PlayerController : MonoBehaviour
         Vector3 newPos = transform.position;
         timer = timer - Time.deltaTime;
 
+        //check if user is still running
         if (timer <= 0)
         {
             handleWalkSound(newPos);
@@ -52,9 +56,16 @@ public class PlayerController : MonoBehaviour
             )
         )
         {
-            Debug.Log("Läuft los");
             isMoving = true;
-            audioWalking.Play();
+
+            if (isWater)
+            {
+                audioWalkingInWater.Play();
+            }
+            else
+            {
+                audioWalking.Play();
+            }
         }
 
         //user does not move and therefore the 
@@ -65,14 +76,47 @@ public class PlayerController : MonoBehaviour
             Math.Abs(newPos.z - position.z) < posTreshold
         )
         {
-            Debug.Log("Bleibt stehen");
             isMoving = false;
-            audioWalking.Stop();
+            
+            if (isWater)
+            {
+                audioWalkingInWater.Stop();
+            }
+            else
+            {
+                audioWalking.Stop();
+            }
         }
 
         position = newPos;
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+            //toggle
+            isWater = true;
+
+            //switch audio
+            audioWalking.Stop();
+            audioWalkingInWater.Play();
+        }
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+            //toggle
+            isWater = false;
+
+            //switch audio
+            audioWalkingInWater.Stop();
+            audioWalking.Play();
+        }
+    }
 
 }
