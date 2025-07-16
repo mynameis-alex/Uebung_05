@@ -6,3 +6,9 @@ https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947
 
 Grass Flowers
 https://assetstore.unity.com/packages/2d/textures-materials/nature/grass-flowers-pack-free-138810
+
+BOKI
+https://assetstore.unity.com/packages/3d/environments/boki-low-poly-nature-206385
+
+ithappy
+https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727

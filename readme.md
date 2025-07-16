@@ -7,10 +7,8 @@ Die APK-Datei finden Sie im `Build`-Ordner.
 ## TO DO
 
 
-- Water-Schrittsound, wenn Spieler durch Fluss läuft (evtl trackbar über Höhe des spielers oder Kollision?)
-- Wasser-Sound generell in der Nähe des Flusses/Teiches
-- Wasserfall bei Teich
-- Vogel fliegt umher
+- Geräusche Deer
+- evtl. smoothere Transition bei fliegenden Vogel
 
 - Interaktionselement (Karte öffnen, Vogel füttern/rufen/...)
 - Bildungselemente zu Bäumen/Tieren/...

@@ -4,9 +4,6 @@ https://pixabay.com/de/sound-effects/birds-19624/
 birds
 https://pixabay.com/de/sound-effects/forest-wind-with-birds-singing-364368/
 
-wind_bird_toads
-https://pixabay.com/de/sound-effects/v%C3%B6gel-im-wald-und-kr%C3%B6ten-am-teich-153848/
-
 water_river
 https://pixabay.com/de/sound-effects/wasser-kleiner-bach4-31822/
 
