@@ -3,7 +3,7 @@ using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class SparrowController : MonoBehaviour {
-    private float flySpeed = 3f;
+    private float flySpeed = 2.5f;
     private GameObject target;
 
     public GameObject targetsParent;
