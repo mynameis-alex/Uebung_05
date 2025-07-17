@@ -1,42 +1,44 @@
 # Übung 5
 
-Die APK-Datei finden Sie im `Build`-Ordner.
+Die APK-Datei für diese Übung befindet sich im `Build`-Ordner.
+
 
 
 ## Design-Entscheidungen
 
-Der Fokus bei unserem Design war es, eine entspannende und beruhigende Atmosphäre zu schaffen.
-Mit folgenden Design-Entscheidungen wollten wir dies unterstützen:
+Bei der Gestaltung dieser Anwendung lag unser Hauptaugenmerk darauf, eine entspannende und beruhigende Atmosphäre zu schaffen.
+Diese Zielsetzung wurde durch folgende Design-Entscheidungen unterstützt:
 
-- Der Nutzer bewegt sich mithilfe der Analogsticks durch die virtuelle Umgebung.
-Dies ist für ihn körperlich weniger anstrengend als bspw. die Verwendung eines Leaning-Interfaces
-und unterstützt somit unser Ziel, das wir mit unserer Anwendung erreichen wollen.
-Alternativ hätten wir auch eine zielbasierte Fortbewegung wie das Teleportieren wählen können, 
-haben uns jedoch dagegen entschieden, da das normale Gehen näher an einem realistischen Waldspaziergang ist.
-Die Schrittgeschwindigkeit haben wir reduziert, da mit der Standard-Einstellung der Nutzer zu schnell durch
-den Wald gelaufen wäre und es gehetzt gewirkt hätte. So fördern wir auch die Achtsamkeit des Nutzers,
-da ihn dies entschleunigt und Gelegenheit gibt, seine Umwelt bewusster wahrzunehmen.
+* **Fortbewegung:**
+Die Navigation durch die virtuelle Umgebung erfolgt über Analogsticks. Diese Methode ist körperlich weniger anstrengend
+als beispielsweise Leaning-Interfaces und fördert somit das Ziel unserer Anwendung.
+Obwohl eine zielbasierte Fortbewegung wie Teleportation eine Option gewesen wäre, haben wir uns dagegen entschieden,
+um ein realistischeres Gefühl eines Waldspaziergangs zu vermitteln. Die reduzierte Schrittgeschwindigkeit verhindert
+ein Gefühl der Hektik und fördert die Achtsamkeit des Nutzers, indem sie ihn entschleunigt und
+zur bewussten Wahrnehmung seiner Umgebung anregt.
 
-- Ebenfalls setzen wir Soundgeräusche ein, die einerseits eine beruhigende Wirkung haben und andererseits den
-Grad der Immersion erhöhen. Zu einem Spaziergang im Wald gehört unter anderem das Rauschen des Windes
-und das Zwitschern von Vögeln. Diese Hintergrundgeräusche sind permanent bei uns zu hören, sind jedoch soweit gedrosselt,
-dass es nicht anstrengend ist und beruhigend wirkt.
-Des Weiteren ändert sich der Klangteppich, je nachdem wo sich der Nutzer aufhält. Befindet er sich in der Nähe
-der Vogellichtung bzw. des Vogels selbst, ist dessen Zwitschern laut(er) zu hören. Auch wird der Fluss lauter, 
-je stärker man sich ihm nähert. Um die Immersion noch mehr zu erhöhen, sind auch Schrittgeräusche zu hören,
-sofern sich der Nutzer fortbewegt, wie es auch in der Realität zu erwarten wäre.
-Läuft der Nutzer durch den Fluss, passt sich auch hier das Geräusch an.
+* **Soundkulisse:**
+Beruhigende und immersive Soundeffekte spielen eine zentrale Rolle.
+Waldtypische Geräusche wie Windrauschen und Vogelgezwitscher sind permanent im Hintergrund zu hören,
+jedoch so gedämpft, dass sie nicht aufdringlich, sondern beruhigend wirken.
+Der Klangteppich passt sich zudem dynamisch dem Standort des Nutzers an.
+So wird das Zwitschern von Vögeln lauter, wenn sich der Nutzer der Vogellichtung bzw. dem Vogel nähert,
+und das Rauschen eines Flusses verstärkt sich, je näher man ihm kommt.
+Um die Immersion weiter zu erhöhen, sind bei Bewegung Schrittgeräusche zu hören,
+die sich auch anpassen, wenn der Nutzer durch den Fluss läuft.
 
-- Um jedoch nicht nur mit akustischen Reizen zu arbeiten, haben wir die Tiere auch visuell abgebildet,
-um die Immersion zu erhöhen. Wir haben uns gegen eine Interaktion mit den Tieren entschieden,
-da wir dies für realistischer empfunden haben.
+* **(Inter-)Aktionsmöglichkeiten für den Nutzer:**
+Neben akustischen Reizen wurden Tiere auch visuell dargestellt, um die Immersion zu verstärken.
+Wir haben uns bewusst gegen eine Interaktion mit den Tieren entschieden, da wir dies als realistischer empfunden haben,
+da auch bei einem Waldspaziergang in der Realität eher selten mit den Tieren interagiert wird.
+Die Anwendung bietet bewusst nur wenige Interaktionsmöglichkeiten, um den Fokus auf die Wirkung der Natur zu legen.
+Daher beschränkt sich die Interaktion des Nutzers in erster Linie auf seine Fortbewegung durch die Natur und erhält
+in erster Linie akustisches Feedback, teils auch visuell.
+Aktionen, die Unruhe stiften könnten, wurden vermieden.
+Zur Orientierung steht dem Nutzer eine Karte zur Verfügung.
 
-- Generell bieten wir dem Nutzer nicht viele Aktionen an, sodass der Fokus weiterhin auf der Wirkung der Natur liegt,
-wofür aus unserer Sicht keine Aktionen notwendig sind, die eher Unruhe reinbringen (z.B. ?????).
-Zur Orientierung hat der Nutzer jedoch die Möglichkeit, eine Karte zu öffnen und sich so besser zurechtzufinden.
-
-
-Neben der entspannenden Wirkung war uns, wie bereits angeschnitten, die Immersion des Erlebnisses wichtig.
-Daher haben wir des Weiteren auch darauf geachtet, dass der Nutzer vollends von Wald/Natur umgeben ist und beispielsweise
-keinen Horizont am Ende einer Plane sieht. Aus unserer Sicht ist uns damit ein rundes, immersives Erlebnis gelungen,
-dass sowohl die visuelle und akustische Komponente umfasst.
+Neben der entspannenden Wirkung war uns, wie bereits erwähnt, die Immersion des Erlebnisses von großer Bedeutung.
+Daher wurde darauf geachtet, dass der Nutzer vollständig von Wald und Natur umgeben ist und
+beispielsweise kein künstlicher Horizont am Ende der Plane sichtbar ist.
+Unserer Ansicht nach ist uns damit ein stimmiges und immersives Erlebnis gelungen,
+das sowohl visuelle als auch akustische Komponenten umfasst.
