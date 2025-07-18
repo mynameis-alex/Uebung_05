@@ -35,7 +35,7 @@ Die Anwendung bietet bewusst nur wenige Interaktionsmöglichkeiten, um den Fokus
 Daher beschränkt sich die Interaktion des Nutzers in erster Linie auf seine Fortbewegung durch die Natur und erhält
 in erster Linie akustisches Feedback, teils auch visuell.
 Aktionen, die Unruhe stiften könnten, wurden vermieden.
-Zur Orientierung steht dem Nutzer eine Karte zur Verfügung.
+Zur Orientierung steht dem Nutzer eine Karte zur Verfügung, welche er mit 'X' öffnen kann.
 
 Neben der entspannenden Wirkung war uns, wie bereits erwähnt, die Immersion des Erlebnisses von großer Bedeutung.
 Daher wurde darauf geachtet, dass der Nutzer vollständig von Wald und Natur umgeben ist und
