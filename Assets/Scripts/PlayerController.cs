@@ -7,12 +7,14 @@ public class PlayerController : MonoBehaviour
     //Assets (Audios)
     public AudioSource audioWalking;
     public AudioSource audioWalkingInWater;
+    public AudioSource audioWalkingOnBridge;
 
     //Position and isMoving
     private Vector3 position;
     private float posTreshold = 0.01f;
     private Boolean isMoving = false;
     private Boolean isWater = false;
+    private Boolean isBridge = false;
 
     private float moveInterval = 0.2f;
     private float timer;
@@ -62,7 +64,11 @@ public class PlayerController : MonoBehaviour
             {
                 audioWalkingInWater.Play();
             }
-            else
+            else if (isBridge)
+            {
+                audioWalkingOnBridge.Play();
+            }
+            else 
             {
                 audioWalking.Play();
             }
@@ -82,6 +88,10 @@ public class PlayerController : MonoBehaviour
             {
                 audioWalkingInWater.Stop();
             }
+            else if (isBridge)
+            {
+                audioWalkingOnBridge.Stop();
+            }
             else
             {
                 audioWalking.Stop();
@@ -98,11 +108,24 @@ public class PlayerController : MonoBehaviour
         {
             //toggle
             isWater = true;
+            isBridge = false;
 
             //switch audio
             audioWalking.Stop();
             audioWalkingInWater.Play();
         }
+
+        if (other.CompareTag("Bridge"))
+        {
+            //toggle
+            isWater = false;
+            isBridge = true;
+
+            //switch audio
+            audioWalking.Stop();
+            audioWalkingOnBridge.Play();
+        }
+
     }
 
 
@@ -115,6 +138,16 @@ public class PlayerController : MonoBehaviour
 
             //switch audio
             audioWalkingInWater.Stop();
+            audioWalking.Play();
+        }
+
+        if (other.CompareTag("Bridge"))
+        {
+            //toggle
+            isBridge = false;
+
+            //switch audio
+            audioWalkingOnBridge.Stop();
             audioWalking.Play();
         }
     }
