@@ -1,6 +1,7 @@
 # Übung 5
 
 Die APK-Datei für diese Übung befindet sich im `Build`-Ordner.
+Eine Demo ist in diesem Verzeichnis hinterlegt.
 
 
 
